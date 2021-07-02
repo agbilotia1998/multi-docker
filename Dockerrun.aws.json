@@ -3,28 +3,28 @@
   "containerDefinitions": [
     {
       "name": "client",
-      "image": "stephengrider/multi-client",
+      "image": "agbilotia1998/multi-client",
       "hostname": "client",
       "essential": false,
       "memory": 128
     },
     {
       "name": "server",
-      "image": "stephengrider/multi-server",
+      "image": "agbilotia1998/multi-server",
       "hostname": "api",
       "essential": false,
       "memory": 128
     },
     {
       "name": "worker",
-      "image": "stephengrider/multi-worker",
+      "image": "agbilotia1998/multi-worker",
       "hostname": "worker",
       "essential": false,
       "memory": 128
     },
     {
       "name": "nginx",
-      "image": "stephengrider/multi-nginx",
+      "image": "agbilotia1998/multi-nginx",
       "hostname": "nginx",
       "essential": true,
       "portMappings": [
